@@ -1,0 +1,46 @@
+@media(min-width: 1024px) {
+    .m-logo,
+    #m-menu {
+        display: none !important;
+    }
+}
+
+@media(min-width: 740px) and (max-width: 1023px) {
+    .m-logo,
+    #m-menu {
+        display: none !important;
+    }
+    .ipad-col-2 {
+        width: 50%;
+        padding: 0 8px;
+        margin-bottom: 16px;
+    }
+}
+
+@media(max-width:740px) {
+    .m-col-full {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .pc-menu {
+        display: none;
+    }
+    .m-logo {
+        position: absolute;
+        padding: 22px 32px;
+        right: 0;
+        top: 0;
+    }
+    #slider h1 {
+        font-size: 32px;
+    }
+    #m-menu {
+        display: none;
+        text-transform: uppercase;
+        position: fixed;
+        top: 0;
+        width: 200px;
+        height: 100%;
+        z-index: 2;
+    }
+}
